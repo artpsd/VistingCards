@@ -4,7 +4,7 @@ import { styled } from '@mui/system';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
-import LocationCityIcon from '@mui/icons-material/LocationCity';
+import NearMeIcon from '@mui/icons-material/NearMe';
 
 // Define custom styles with dynamic background colors
 const StyledCard = styled(Card)(({ theme }) => ({
@@ -255,7 +255,7 @@ const VisitingCard = ({ profilePic, name, workExperience, currentLocation, phone
             <IconLabelWithIcon variant="body2">
               <PreferredLocationsLabel>Preferred Locations</PreferredLocationsLabel>
               <CircleIcon iconColor={iconColor} backgroundColor={circleBackgroundColor}>
-                <LocationCityIcon fontSize="Extrasmall" />
+                <NearMeIcon fontSize="Extrasmall" />
               </CircleIcon>
             </IconLabelWithIcon>
           </IconWrapper>
