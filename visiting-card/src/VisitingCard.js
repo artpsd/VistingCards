@@ -73,12 +73,12 @@ const NameWorkWrapper = styled('div')({
   alignItems: 'flex-end',
   flexDirection: 'column',
   marginBottom: '0.5rem',
-  paddingRight: '20px',
+  paddingRight: '15px',
 });
 
 const NameTypography = styled(Typography)({
   fontFamily: 'Playfair Display, serif',
-  fontSize: 32,
+  fontSize: 20,
   fontWeight: 'medium',
 });
 
@@ -93,14 +93,14 @@ const DepartmentPositionWrapper = styled('div')({
   alignItems: 'flex-start',
   flexDirection: 'column',
   height: '100%',
+  textAlign: 'left',
 });
 
 const Topcontentwrapper = styled('div')({
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     flexDirection: 'row',
     marginBottom: '1rem', // Adjust margin for spacing
-    paddingRight: '1rem',
     width: '100%',
   });
 
@@ -108,11 +108,14 @@ const DepartmentTypography = styled(Typography)({
   fontFamily: 'DM Sans, sans-serif',
   fontSize: 12,
   marginBottom: '0.25rem', // Adjust margin for spacing
+  width: '70%',
+  alignContent: 'flex-end',
 });
 
 const PositionTypography = styled(Typography)({
   fontFamily: 'DM Sans, sans-serif',
   fontSize: 12,
+  width: '70%',
 });
 
 const RightContentWrapper = styled('div')({
