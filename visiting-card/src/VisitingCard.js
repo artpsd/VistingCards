@@ -187,7 +187,7 @@ const PreferredLocationsWrapper = styled('div')({
 
   const CurrentLocationWrapper = styled('div')({
     position: 'absolute',
-    top: '75px',
+    top: '65px',
     right: '90px',
   });
 
