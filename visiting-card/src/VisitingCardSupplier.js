@@ -99,7 +99,7 @@ const VisitingCardSupplier = ({
          
       {/* Right Side */}
       <Box sx={{  width: '30%', backgroundColor: rightBackgroundColor, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '0px 10px' }}>
-        <Avatar alt="Profile Picture" src={profilePic} sx={{ width: 74, height: 74, marginBottom: '.5rem', justifyContent:'right', }} />
+        <Avatar alt="Profile Picture" src={profilePic} sx={{ boxShadow: '0 3px 8px rgba(0,0,0,0.3)', width: 74, height: 74, marginBottom: '.5rem', justifyContent:'right', }} />
         <Typography variant="h5" gutterBottom sx={{ textAlign:'right', color: textColor, fontFamily: 'Playfair Display' }}>
           {brandName}
         </Typography>
