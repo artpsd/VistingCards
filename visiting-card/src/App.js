@@ -15,10 +15,10 @@ function App() {
          areaOfCoverage={['Location 1', 'Location 2']}
         website="www.example.com"
         iconColor="#fff"
-        circleBackgroundColor="#000"
+        circleBackgroundColor= "#EC625F"
         textColor="#fff"
-        leftBackgroundColor="#2D6ABF"
-        rightBackgroundColor="#333"
+        leftBackgroundColor="#313131"
+        rightBackgroundColor="#EC625F"
       />
     </div>
   );
